@@ -158,6 +158,7 @@ export const FormBuilder = () => {
       </Box>
       <Box background="white" padding={4} hasRadius shadow="filterShadow">
         <div id="grid-container" ref={containerRef}>
+          {/* @ts-ignore - react-grid-layout type incompatibility with React 18 */}
           <ReactGridLayout
             className="layout"
             layout={currentLayouts[currentBreakpoint]}
