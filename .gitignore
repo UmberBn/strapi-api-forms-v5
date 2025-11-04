@@ -99,7 +99,8 @@ public/uploads/*
 # Build
 ############################
 
-dist
+# Keep dist for npm/yarn installs from GitHub
+# dist
 build
 
 
