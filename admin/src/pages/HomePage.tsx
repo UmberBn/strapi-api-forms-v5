@@ -202,7 +202,7 @@ const HomePage = () => {
                         action={
                           <LinkButton
                             startIcon={<Plus style={{ fill: 'white' }} />}
-                            href={`/admin/plugins/${PLUGIN_ID}/form/add`}
+                            href={`/admin/plugins/${PLUGIN_ID}/form`}
                           >
                             {formatMessage({
                               id: getTranslation('forms.subtitle'),
